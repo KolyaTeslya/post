@@ -1,0 +1,24 @@
+{
+    "name": "teslya/post",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Teslya\\Post\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kolya",
+            "email": "86050654+KolyaTeslya@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "league/route": "^5.1",
+        "zendframework/zend-diactoros": "^1.3",
+        "laminas/laminas-diactoros": "^3.0",
+        "laminas/laminas-httphandlerrunner": "^2.6",
+        "league/container": "^4.2"
+    }
+}
